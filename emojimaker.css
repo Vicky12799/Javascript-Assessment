@@ -19,13 +19,25 @@ h1 {
 #left-container {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  position: relative;
   background-color: #ffee49;
   width: 35%;
   height: 250px;
   margin: 0 20px;
   border-radius: 10px;
 }
+#left-swipe {
+  display: none;
+  position: absolute;
+  top: 50%;
+}
+#right-swipe {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
 #select-heading {
   display: flex;
   justify-content: center;
@@ -38,16 +50,25 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 #select-eyes-div {
   flex-direction: column;
   display: none;
 }
+#select-mouth-div {
+  flex-direction: column;
+  display: none;
+}
 #eyes-row1,
-#eyes-row2 {
+#eyes-row2,
+#mouth-row1,
+#mouth-row2 {
   display: flex;
   justify-content: center;
 }
-.eyes {
+
+.eyes,
+.mouth {
   display: flex;
   background-color: #f4f4f4;
   width: 50px;
@@ -55,9 +76,7 @@ h1 {
   margin: 8px;
   border-radius: 2px;
 }
-#select-color-div {
-  display: none;
-}
+
 .color {
   width: 70px;
   height: 70px;
@@ -89,5 +108,14 @@ h1 {
   width: 150px;
   height: 150px;
   border-radius: 70px;
-  border: 5px solid black;
+  border: 2px solid black;
+}
+#eyes-right {
+  width: 75px;
+  margin-left: 35px;
+  margin-bottom: 0;
+}
+#mouth-right {
+  width: 75px;
+  margin-left: 35px;
 }
