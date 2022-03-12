@@ -1,0 +1,49 @@
+body {
+  background-color: #4cbbf0;
+  font-family: "Knewave", cursive;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  display: flex;
+  color: yellow;
+  font-family: "Knewave", cursive;
+  font-size: 100px;
+  justify-content: center;
+  font-weight: 100;
+}
+#container-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: #ffee49;
+  color: #2b3452;
+  border-radius: 5px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: #2b3452;
+}
+.container1 a {
+  font-weight: 600;
+  font-size: 20px;
+  color: #2b3452;
+}
+.container2 a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffee49;
+}
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
