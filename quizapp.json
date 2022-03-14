@@ -1,0 +1,37 @@
+[
+    {
+      "question": "Which was not one of the voldemort's Horcruxes?",
+      "options": ["Harry", "Nagini", "Helga's diedem", "Tom Riddle's Diary"],
+      "answer": "c",
+      "name": "Horcruxes"
+    },
+    {
+      "question": "Which of these are not one of Hargit's many pets?",
+      "options": ["Grawp", "Fluffy", "Aragog", "Noberta"],
+      "answer": "a",
+      "name": "pets"
+    },
+    {
+      "question": "Which class did serverus snape always wanted to teach?",
+      "options": [
+        "Potions",
+        "Charms",
+        "Defence against dark arts",
+        "Transfiguration"
+      ],
+      "answer": "c",
+      "name": "Serverus's class"
+    },
+    {
+      "question": "Which Hogwarts house did Moaning Myrtle belong in ?",
+      "options": ["Gryffinder", "Slytherin", "Ravenclaw", "Hufflepuff"],
+      "answer": "c",
+      "name": "house"
+    },
+    {
+      "question": "What class did Neville end up teaching at Hogwarts",
+      "options": ["Astronomy", "Herbology", "Charms", "Muggle studies"],
+      "answer": "b",
+      "name": "Neville's class"
+    }
+  ]
